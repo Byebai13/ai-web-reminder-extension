@@ -1,4 +1,4 @@
-# AI Task Reminder Extension
+## Ai-web-reminder-extension
 
 <div align="center">
 
@@ -15,35 +15,10 @@
 
 ## 📖 项目简介
 
-AI Task Reminder Extension 是一个轻量级的Chrome浏览器扩展程序，旨在帮助用户养成善用AI工具的习惯。每当你打开新网页时，它会友好地提醒你思考：**"这个任务是否可以用AI来完成？"**
+AI-web-reminder-extension 
+Inspired by Microsoft Chief Product Officer Aparna Chennapragada, this plugin helps users develop an instinctive use of AI. Every time a new webpage is opened, a small popup automatically appears to ask whether AI can be used to complete the task.
 
-在AI技术快速发展的今天，很多日常任务都可以通过AI工具来提高效率，但我们往往会忘记这一点。这个插件就是你的贴心小助手，让你不再错过提升效率的机会！
 
-## ✨ 功能特性
-
-- 🧠 **智能提醒** - 每次打开新网页时，询问是否可以用AI完成任务
-- ⚡ **提升效率** - 帮助养成善用AI工具的习惯
-- 🎯 **轻量简洁** - 不干扰正常浏览，每个页面只提醒一次
-- 🔄 **灵活控制** - 可随时重置提醒状态
-- 🌐 **全站支持** - 兼容所有网站
-- 🎨 **简洁界面** - 极简设计，专业外观
-
-## 📸 功能展示
-
-### 智能提醒弹窗
-当你打开新网页时，会在右上角显示友好的提醒：
-
-```
-┌─────────────────────────────┐
-│ AI 仔！给我干活！            │
-│ 💭 想想看...现在的 AI 能完成吗？ │
-│                            │
-│ [🐂💰 能干！] [🐄 还不行]    │
-└─────────────────────────────┘
-```
-
-### 插件信息页面
-点击插件图标可查看详细功能介绍和设置选项。
 
 ## 🚀 安装方法
 
