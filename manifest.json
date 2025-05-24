@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "AI 仔！给我干活！",
+  "version": "1.0",
+  "description": "每次打开网页时提醒你是否可以用AI来完成这个任务",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AI 仔！给我干活！"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

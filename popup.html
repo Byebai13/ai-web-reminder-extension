@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 320px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background: #f8f9fa;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #FF4757 0%, #FF6B35 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #FF6B35;
+        }
+        
+        .icon {
+            font-size: 28px;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 6px;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        .subtitle {
+            font-size: 13px;
+            opacity: 0.9;
+            font-weight: 500;
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        
+        .feature {
+            background: white;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        .feature:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-1px);
+        }
+        
+        .feature-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .feature-icon {
+            font-size: 16px;
+            margin-right: 8px;
+            width: 20px;
+            text-align: center;
+        }
+        
+        .feature-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #212529;
+        }
+        
+        .feature-desc {
+            font-size: 12px;
+            color: #6c757d;
+            line-height: 1.5;
+            margin-left: 28px;
+        }
+        
+        .tip-card {
+            background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+            border: 1px solid #c3e6c3;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .tip-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+        
+        .tip-icon {
+            font-size: 14px;
+            margin-right: 6px;
+        }
+        
+        .tip-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #2d5a2d;
+        }
+        
+        .tip-desc {
+            font-size: 12px;
+            color: #3d6b3d;
+            line-height: 1.4;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 16px 20px;
+            background: white;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer-slogan {
+            font-size: 13px;
+            color: #495057;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        
+        .footer-version {
+            font-size: 11px;
+            color: #adb5bd;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="icon">👹</div>
+        <div class="title">AI 仔！给我干活！</div>
+        <div class="subtitle">化身黑心老板，疯狂压榨 AI 员工</div>
+    </div>
+    
+    <div class="content">
+        <div class="feature">
+            <div class="feature-header">
+                <span class="feature-icon">💭</span>
+                <span class="feature-title">智能提醒</span>
+            </div>
+            <div class="feature-desc">每次打开新网页时，询问你这个任务是否可以用AI来完成</div>
+        </div>
+        
+        <div class="feature">
+            <div class="feature-header">
+                <span class="feature-icon">⚡</span>
+                <span class="feature-title">提升效率</span>
+            </div>
+            <div class="feature-desc">帮助你养成善用AI工具的习惯，让AI成为你的得力助手</div>
+        </div>
+        
+        <div class="feature">
+            <div class="feature-header">
+                <span class="feature-icon">🎯</span>
+                <span class="feature-title">轻量简洁</span>
+            </div>
+            <div class="feature-desc">不干扰正常浏览，每个页面只提醒一次</div>
+        </div>
+        
+        <div class="tip-card">
+            <div class="tip-header">
+                <span class="tip-icon">🔄</span>
+                <span class="tip-title">重置提醒</span>
+            </div>
+            <div class="tip-desc">如需重新显示提醒，请刷新网页或重新打开标签页</div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-slogan">小 AI 子，多干工作才能更快成长！</div>
+        <div class="footer-version">版本 1.0 | GitHub开源</div>
+    </div>
+</body>
+</html>
